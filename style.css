@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+#editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input {
+    width: 90%;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid rgb(207, 14, 14);
+}
+
+#add-image, #add-video, #preview {
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+}
+
+#output {
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgb(12, 214, 12);
+}
+
+#content {
+    padding: 10px;
+}
